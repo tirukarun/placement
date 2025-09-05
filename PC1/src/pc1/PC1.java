@@ -16,28 +16,24 @@ public class PC1 {
      */
     public static void main(String[] args) {
         
-        String[] arr = {"P1", "P2", "P3", "P4"};
-        String[] newArr = new String[arr.length+1];
-        int max = arr.length-1;
-        int pos = 1;
-        String value = "PE";
-        int insertIndex = pos-1;
+        Recursion rsn = new Recursion();
+        //rsn.printName("Eshwar Lal", 0);
+        //int total = rsn.factorial(3);
+        //System.out.println(total);
         
-        for(int i=0; i<arr.length; i++)
-        {
-            newArr[i] = arr[i];
-        }
+        //System.out.println(rsn.factorial1(5));
+        //System.out.println(rsn.factorial1(5));
+        //Result r = new Result();
+        //r.start();
+        //BinarySearch bs = new BinarySearch();
+        //bs.start();
+        //RollerCoaster rc = new RollerCoaster();
+        //rc.start();
+        //ArrayDeletion ad = new ArrayDeletion();
+        //ad.start();
         
-        for(int i=max; i>=insertIndex; i--)
-        {
-            newArr[i+1] = newArr[i];
-        }
-        newArr[insertIndex] = value;
-        
-        for(int i=0; i<newArr.length; i++)
-        {
-            System.out.println(newArr[i]);
-        }
+        //LinearSearch ls = new LinearSearch();
+        //ls.start();
     }
     
 }
