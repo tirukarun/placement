@@ -16,7 +16,15 @@ public class PC1 {
      */
     public static void main(String[] args) {
         
-        Recursion rsn = new Recursion();
+        MergeSort sort = new MergeSort();
+        sort.sort();
+        //Inventory i = new Inventory();
+        //i.start();
+        //DeliveryRouteOptimization dro = new DeliveryRouteOptimization();
+        //dro.start();
+        //BubbleSort bs = new BubbleSort();
+        //bs.sort();
+        //Recursion rsn = new Recursion();
         //rsn.printName("Eshwar Lal", 0);
         //int total = rsn.factorial(3);
         //System.out.println(total);
